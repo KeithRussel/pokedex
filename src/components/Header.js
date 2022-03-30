@@ -17,7 +17,7 @@ function Header() {
     <header className="site-header">
       <div className="wrapper site-header__wrapper">
         <Link to="/" className="brand">
-          Brand
+          Pokemon
         </Link>
         <nav className="nav">
           <button
@@ -41,12 +41,12 @@ function Header() {
           >
             <li className="nav__item active-link">
               <Link to="/" onClick={() => closeMenu()}>
-                Homes
+                Home
               </Link>
             </li>
             <li className="nav__item active-link">
               <Link to="/about" onClick={() => closeMenu()}>
-                Abouts
+                About
               </Link>
             </li>
           </ul>
