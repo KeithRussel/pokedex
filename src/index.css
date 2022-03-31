@@ -29,6 +29,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.site-content {
+  background-color: #0000004d;
+}
+
 .sr-only {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);

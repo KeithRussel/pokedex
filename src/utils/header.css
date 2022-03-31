@@ -9,12 +9,16 @@
 
 .site-header {
   position: relative;
-  background-color: #def7ff;
+  background-color: #222;
 }
 
 .site-header__wrapper {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.site-header__wrapper a {
+  color: #fff;
 }
 @media (min-width: 600px) {
   .site-header__wrapper {

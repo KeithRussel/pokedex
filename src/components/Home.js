@@ -36,23 +36,25 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="app-container container">
-        <h1>Pokemon Kanto Region Lists</h1>
-        <div className="pokemon-container">
-          <div className="all-container">
-            {allPokemons.map((pokemonStats, index) => (
-              <PokemonCard
-                key={index}
-                id={pokemonStats.id}
-                image={pokemonStats.sprites.other.dream_world.front_default}
-                name={pokemonStats.name}
-                type={pokemonStats.types[0].type.name}
-              />
-            ))}
+      <div className="site-content">
+        <div className="app-container container">
+          <h1>Pokemon Kanto Region Lists</h1>
+          <div className="pokemon-container">
+            <div className="all-container">
+              {allPokemons.map((pokemonStats, index) => (
+                <PokemonCard
+                  key={index}
+                  id={pokemonStats.id}
+                  image={pokemonStats.sprites.other.dream_world.front_default}
+                  name={pokemonStats.name}
+                  type={pokemonStats.types[0].type.name}
+                />
+              ))}
+            </div>
+            <button className="load-more" onClick={() => getAllPokemons()}>
+              Load more
+            </button>
           </div>
-          <button className="load-more" onClick={() => getAllPokemons()}>
-            Load more
-          </button>
         </div>
       </div>
     </>
