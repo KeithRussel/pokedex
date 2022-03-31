@@ -1,7 +1,7 @@
 # Pokemon Kanto Region
 
 Fetch lists of Pokemon in Kanto Region
-Check the [sample link](https://p0kedexplorer.netlify.app/)
+Check the [sample link](https://pokemonkantoregion.netlify.app/)
 
 ![](https://github.com/KeithRussel/pokedex/blob/main/pokemon.gif)
 
