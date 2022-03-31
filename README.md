@@ -1,6 +1,6 @@
 # Pokemon Kanto Region
 
-Fetch lists of Pokemon in Kanto Region
+Fetch lists of Pokemon in Kanto Region. Will update some features in future.
 Check the [sample link](https://pokemonkantoregion.netlify.app/)
 
 ![](https://github.com/KeithRussel/pokedex/blob/main/pokemon.gif)
